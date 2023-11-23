@@ -38,6 +38,8 @@ recursively create checksum of all files in a directory while:
 
 **(optional)** 
 
+**-sdel** - delete source files after archiving
+
 **-mmemuse=60p** - set memory limit to 60%
 
 **-mmemuse=5g** - set memory limit to 5 GiB
