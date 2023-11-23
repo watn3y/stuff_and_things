@@ -15,3 +15,4 @@ recursively create checksum of all files in a directory while:
 
 		find . -type f -not -name "checksum.sha256" -exec echo {} \; | cut -c 3- | sort | xargs -r -d '\n' sha256sum > checksum.sha256
 
+[here's a script to do it recursivly](checksum_in_dirs.sh)
